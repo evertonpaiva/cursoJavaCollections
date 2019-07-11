@@ -34,9 +34,7 @@ public class TestandoListas {
 
 		System.out.println(aulas.size());
 
-		aulas.forEach(aula -> {
-			System.out.println("percorrendo: " + aula);
-		});
+		aulas.forEach(aula -> System.out.println("percorrendo: " + aula));
 
 		aulas.add("Aumentando nosso conhecimento");
 		System.out.println(aulas);
